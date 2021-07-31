@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movies"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_disc_d1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:background="@drawable/coming_soon_gif1"
+                    />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/d1"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/coming_soon" />
+
+            </LinearLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kids Shows"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_disc_kd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/coming_soon_gif2"
+                />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/demo1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/coming_soon3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serials"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_disc_d2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/coming_soon_gif1"
+                />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/d2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/mmov1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dcst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contest"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_disc_d3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/coming_soon_gif2"
+                />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/d3"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/mmov1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Watch your live tv Shows"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_disc_d4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/coming_soon_gif1"
+                />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/d4"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/mmov1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvShorts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Up your Short Filim"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_disc_d5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/coming_soon_gif2"
+                />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/d5"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/mmov1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvScStar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/ic_info"
+            android:text="SC Star"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_disc_ScStar"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@id/tvSLang"
+            android:paddingStart="5dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll_disc_ScStar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:background="@drawable/coming_soon_gif1"
+                    />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/iv_scStar1"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/scstaruser" />
+
+                <ImageView
+                    android:id="@+id/iv_scStar2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/mmovie"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_scStar3"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/mmv2"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tvYourChanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/ic_info"
+            android:text="Your Own Channel"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_disc_yrchanl"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@id/tvSLang"
+            android:paddingStart="5dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll_disc_yrchnl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:background="@drawable/coming_soon_gif2"
+                    />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/imageView5"
+                    android:layout_width="383dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/createyrchanel" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

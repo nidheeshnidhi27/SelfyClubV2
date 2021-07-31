@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Selfy Club</string>
+
+    <string name="facebook_app_id">517209332879940</string>
+    <string name="fb_login_protocol_scheme">fb517209332879940</string>
+
+
+
+    <string name="gif_api_key">EUWfaDUhh7ndEqBAFADEWTnLfXNZb25r</string>
+
+
+    <string name="api_key_header">156c4675-9608-4591-1111-00000</string>
+
+
+    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="my_Interstitial_Add">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="request_verification">Request Verification</string>
+    <string name="apply_for_tic_tic_verification">Apply for Selfy Club Verification</string>
+    <string name="upper_body">A verified badge is check that appears next to an \nSelfy Club accounts name to indicate that the \naccount is the authentic presence of notable \npublic figure , celebrity, global brand or entity it \nrepresents.</string>
+    <string name="upper_body_below">Submitting a request for verification \ndoes not guarantee that your account will be verified</string>
+    <string name="lower_body">We require a government-issued photo ID that shows \nyour name and date of birth(e.g driver\'s license.\npassport or national identification card) or official \nbusiness documents(tax filing, recent utility bill, article of \nincorporation) in order to review your request.</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="version">2.2</string>
+    <string name="device">android</string>
+
+    <string name="delete_function_not_available_in_demo">Delete Function not available in demo</string>
+    <string name="privacy_function_not_available_in_demo">Privacy Setting Function not available in demo</string>
+    <string name="friends">\@Friends</string>
+    <string name="hashtags">#Hashtags</string>
+
+
+    <string name="music_usage_confirmation">By checking this box,You confirm that either
+        (A)there is no copyrighted music included in this video, or (B) you have received all necessary rights
+        (including publishing rights and master recording rights) to use any music included in this video on the tik tok platform.
+    </string>
+
+    <string name="confirm_either">if you cannot confirm either (A) or (B),please uncheck this box.Any audio included in the video will be removed.
+    </string>
+
+
+    <string name="reset_text">if you\'re forgotten your password.enter your e-mail and we\'ll send you an e-mail telling how to recover it.</string>
+    <string name="otp_msg">Please Enter The Code Which Is Send To You By Mail</string>
+    <string name="an_email_sent">\"An email has been sent to : \"</string>
+    <string name="shortly">.You should receive it shortly.</string>
+
+
+    <!--String for no data -->
+    <string name="whoops">Whoops!</string>
+    <string name="no_fav_sound">No sound found sofar.</string>
+    <string name="no_fav_video">There is no favourite video so far.</string>
+    <string name="no_liked_video">There is no liked videos so far.</string>
+    <string name="no_private_video">There is no videos so far.</string>
+    <string name="no_hashtag">There is no data so far.</string>
+    <string name="no_comment">Be the first to comment!</string>
+    <string name="no_following">When you follow people. you\'ll see them here</string>
+    <string name="not_inbox">There is no inbox you have so far</string>
+    <string name="no_notification">There is no notifications you have so far</string>
+    <string name="no_search">There is no data so far.</string>
+
+    <!-- Change Language   -->
+    <string name="following">Following</string>
+    <string name="related">Related</string>
+    <string name="home">Home</string>
+    <string name="discover">Discover</string>
+    <string name="inbox">Inbox</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="followers">Followers</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="favourite">Favourite</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="firstvideo">Tap + to create\n your first short video</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="forgotpassword_">Forgot Password?</string>
+    <string name="login_title">You need a Selfy Club \naccount to Continue</string>
+    <string name="login_emil_phn"> User phone / email / username</string>
+    <string name="login_fb">Continue With Facebook</string>
+    <string name="login_google">Continue With Google</string>
+    <string name="login">Log in</string>
+    <string name="login_no_account">Don\'t have a account?</string>
+    <string name="login_sign_up"> Sign up</string>
+    <string name="privacy_seting">Privacy and Settings</string>
+    <string name="malayalam">Malayalam</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="tamil">Tamil</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log in</string>
+    <string name="phone_login">Phone</string>
+    <string name="email_login">Email</string>
+    <string name="email_reg_policy">By signing up, you confirm that you agree to our  Terms of \nUse and have read and understood our Privacy Policy.</string>
+    <string name="email_reg_next">Next</string>
+    <string name="email_reg_password">Password</string>
+    <string name="dob_signup">When\'s your birthday?</string>
+    <string name="dob_signup_show">Your birthday won\'t be shown publicly.</string>
+    <string name="send_code">Send Code</string>
+    <string name="add_phone_login_privacy">By signing up, you confirm that you agree to our Terms of \nUse and have read and understood our Privacy Policy.\nif you signup with SMS. SMS fee may apply</string>
+    <string name="pro_uname">Username</string>
+    <string name="pro_fname">First name</string>
+    <string name="pro_lname">Last name</string>
+    <string name="pro_gender">Gender</string>
+    <string name="pro_male">Male</string>
+    <string name="pro_female">Female</string>
+    <string name="pro_web">Website</string>
+    <string name="pro_bio">Bio</string>
+    <string name="pro_yrbio">Your Bio</string>
+    <string name="update_message">New Version of the app Available, Please update to continue</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="howtocreate">You can create your own channel \n 1. If you have 100K + subscribers, you will get a gift every month. \n 2. If you get 10k + Likes for your video, you will get a gift </string>
+
+</resources>

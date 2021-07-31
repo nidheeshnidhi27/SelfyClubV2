@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+        <item
+            android:id="@+id/edit_Profile_id"
+            android:title="@string/editprofile"/>
+
+        <item
+            android:id="@+id/favourite_id"
+            android:title="@string/favourite"/>
+
+        <item
+            android:id="@+id/contest_id"
+            android:title="Contest"/>
+
+        <item
+            android:id="@+id/prize_id"
+            android:title="Prize"/>
+
+        <item
+            android:id="@+id/setting_id"
+            android:title="@string/settings"/>
+
+        <item
+            android:id="@+id/logout_id"
+            android:title="@string/logout"/>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "129914195361",
+    "project_id": "selfyclub-v2-afaa9",
+    "storage_bucket": "selfyclub-v2-afaa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129914195361:android:da2b74ff9ab0e5dc5a8fe0",
+        "android_client_info": {
+          "package_name": "com.selfyclub.selfyclubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129914195361-ik7j4r9vfivbkpnfufsnurejo3b61c8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlTCdb2HTbAu4PgUzAqJdDFFuWY0Z_4DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129914195361-ik7j4r9vfivbkpnfufsnurejo3b61c8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129914195361:android:cb91e98b115274d45a8fe0",
+        "android_client_info": {
+          "package_name": "com.selfyclub.selfyclubappV2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129914195361-cndlkpi0shbl2lbo08p1nq5rjd196k3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.selfyclub.selfyclubappV2",
+            "certificate_hash": "8446609f5be36444c08f8a4365c9ff603485ce78"
+          }
+        },
+        {
+          "client_id": "129914195361-ik7j4r9vfivbkpnfufsnurejo3b61c8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlTCdb2HTbAu4PgUzAqJdDFFuWY0Z_4DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129914195361-ik7j4r9vfivbkpnfufsnurejo3b61c8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

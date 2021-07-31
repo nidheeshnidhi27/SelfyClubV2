@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ChangeLanguage.ChangeLanguage_A">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="90dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Select Your Language"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="മലയാളം"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="188dp"
+                android:layout_marginLeft="188dp"
+                android:text="हिंदी"
+                android:visibility="visible"
+                tools:layout_constraintTop_toBottomOf="@id/tv1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:visibility="visible"
+            tools:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lang_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="29dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_mala"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_malHead"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_malaH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="മലയാളം"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_malaH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Malayalam" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+                    <!--app:srcCompat="@drawable/icons8_bus_500"-->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_tamil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_tamil"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_tamH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="தமிழ்"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_tamT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_tamH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Tamil" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_hindi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_hindi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_hinH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="हिंदी"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_hinH"
+                        android:layout_centerHorizontal="true"
+                        android:text="Hindi"
+                        android:textColor="@color/gray" />
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/hin_img"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/ll_hin_pic"
+                android:paddingBottom="10dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/mal_img"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ll_mala_pic"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/eng_img"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/ll_mala_pic"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_english"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_eng"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_engH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="English"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_engH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="english" />
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_urdu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_urdu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_urduH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="اردو"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_urduH"
+                        android:textColor="@color/gray"
+                        android:layout_centerHorizontal="true"
+                        android:text="Urdu" />
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_kanada"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_kannada"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_kannadaH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="ಕನ್ನಡ"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_kannadaH"
+                        android:textColor="@color/gray"
+                        android:layout_centerHorizontal="true"
+                        android:text="Kannada" />
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/tamil_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ll_tamil_pic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_gujarati"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_gujarati"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_gujaratiH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="ગુજરાતી"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_gujaratiH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Gujarati" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+                    <!--app:srcCompat="@drawable/icons8_bus_500"-->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_telugu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_telugu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_teluguH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="తెలుగు"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_teluguT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_teluguH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Telugu" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_oriya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_oriya"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_oriyaH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="ଓଡିଆ"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_oriyaH"
+                        android:layout_centerHorizontal="true"
+                        android:text="Odia"
+                        android:textColor="@color/gray" />
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_punjabi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_punjabi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_punjabiH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="ਪੰਜਾਬੀ"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_punjabiH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Punjabi" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+                    <!--app:srcCompat="@drawable/icons8_bus_500"-->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_marathi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_marathi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_marathiH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="मराठी"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_marathiT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_marathiH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Marathi" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_bengali"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_bengali"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_bengaliH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="বাংলা"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_bengaliH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Bengali" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+                    <!--app:srcCompat="@drawable/icons8_bus_500"-->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_rajasthani"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_rajasthani"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_rajasthaniH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="हिंदी"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_rajasthaniH"
+                        android:layout_centerHorizontal="true"
+                        android:text="Rajasthani"
+                        android:textColor="@color/gray" />
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_bhihari"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_bhihari"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_bhihariH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:text="தமிழ்"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_bhihariT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_bhihariH"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/gray"
+                        android:text="Bhihari" />
+                    <!--app:fontFamily="@font/aclonica"-->
+
+
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_assamese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_assamese"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E9141319"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_assameseH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="हिंदी"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_assameseH"
+                        android:layout_centerHorizontal="true"
+                        android:text="Assamese"
+                        android:textColor="@color/gray" />
+                    <!--app:srcCompat="@drawable/icons8_train_500" -->
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_conform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/login_btn_draw"
+        android:backgroundTint="@color/lightgreen"
+        android:clickable="false"
+        android:text="Confirm"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_lang_head" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+    <!--
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:clickable="true"
+        android:fitsSystemWindows="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:fitsSystemWindows="true">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1"
+                android:background="@color/black"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/black"
+                    android:background="@drawable/d_bottom_gray_line">
+
+                    <ImageButton
+                        android:visibility="gone"
+                        android:id="@+id/Goback"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/ic_back"
+                        android:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:text="Change Language"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:minHeight="50dp">
+
+                        <TextView
+                            android:visibility="visible"
+                            android:id="@+id/et_change_eng"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="English"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_heart_eng"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="22dp"
+                            android:backgroundTint="@color/redcolor"
+                            android:background="@drawable/ic_heart_gray"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="49dp"
+                            android:background="@color/graycolor" />
+
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:minHeight="50dp">
+
+                            <TextView
+                                android:id="@+id/et_change_hindi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_toRightOf="@+id/profile_icon"
+                                android:editable="false"
+                                android:text="हिंदी"
+                                android:textColor="@color/white"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:visibility="gone"
+                                android:id="@+id/iv_heart_hin"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="22dp"
+                                android:backgroundTint="@color/redcolor"
+                                android:background="@drawable/ic_heart_gray"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginTop="49dp"
+                                android:layout_toRightOf="@+id/profile_icon"
+                                android:background="@color/graycolor" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:minHeight="50dp">
+
+                            <TextView
+                                android:id="@+id/et_change_tamil"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_toRightOf="@+id/profile_icon"
+                                android:editable="false"
+                                android:text="தமிழ்"
+                                android:textColor="@color/white"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:visibility="gone"
+                                android:id="@+id/iv_heart_tamil"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="22dp"
+                                android:backgroundTint="@color/redcolor"
+                                android:background="@drawable/ic_heart_gray"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginTop="49dp"
+                                android:layout_toRightOf="@+id/profile_icon"
+                                android:background="@color/graycolor" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:minHeight="50dp">
+
+
+                        <TextView
+                            android:id="@+id/et_change_mal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:backgroundTint="@color/transparent"
+                            android:editable="false"
+                            android:text="മലയാളം"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_heart_mal"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="22dp"
+                            android:backgroundTint="@color/redcolor"
+                            android:background="@drawable/ic_heart_gray"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="49dp"
+                            android:background="@color/graycolor" />
+
+                    </RelativeLayout>
+
+
+                    <Button
+                        android:id="@+id/change_language_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:clickable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:text="Change Language"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+                        android:theme="@style/Button_style" />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_gravity="bottom"
+            android:id="@+id/showLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFF"
+            android:layout_marginBottom="45dp"/>
+        <Button
+            android:visibility="gone"
+            android:layout_gravity="bottom"
+            android:id="@+id/btnGetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Location" />
+
+
+    </FrameLayout>-->
